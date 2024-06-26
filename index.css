@@ -1,0 +1,118 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+    
+}
+
+.header-style {
+    font-size:20px;
+    
+}
+
+.header-style,
+.img-banner,
+button {
+    color:whitesmoke;
+}
+
+
+
+header{
+    background:#282828;
+    margin-top:0;
+    padding:1px;
+}
+
+ul {
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+    gap: 10px
+}
+
+ul,
+.caption,
+.chat-box {
+    display: flex;
+}
+
+.icon-logo,
+.burger-logo {
+    width:25px;
+}
+
+
+
+.align-right {
+margin-left:auto;
+
+}
+
+.text-logo{
+    font-weight:900;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+    
+}
+
+
+.item {
+    position:relative;
+}
+
+.item-img {
+    width:100%;
+    display:block;
+}
+
+.caption{
+    margin:0 25px;
+    font-size:20px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.img-banner {
+    background-color: #cd6858;
+    padding: 10px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.chat-box{
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+     box-shadow: 1px 1px 5px #999;
+     position:fixed;
+     right:6px;
+     bottom:6px;
+}
+
+.chat-icon,
+button {
+    margin:auto;
+}
+
+
+.chat-icon{
+width:50%;
+}
+
+button {
+   border: none;
+    background-color: #cd6858;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer; 
+    
+    
+}
+
